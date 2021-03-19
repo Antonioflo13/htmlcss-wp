@@ -1,8 +1,4 @@
 /* debug */
-#main-container {
-    width: 75%;
-    margin: 30px auto;
-}
 
 /* nav {
     height: 142px;
@@ -10,22 +6,22 @@
 } */
 
 
-main {
+/* main {
     height: 670px;
     background-color: #0786F2;
-}
+} */
 
-#nav {
+/* #nav {
     height: 86px;
     background-color: #ABCFE7;
-}
+} */
 
 aside.left,
 aside.right {
     float: left;
     width: 23%;
     height: 538px;
-    background-color: #ABCFE7;
+    /* background-color: #ABCFE7; */
 }
 
 article {
@@ -33,7 +29,7 @@ article {
     width: 50%;
     height: 538px;
     margin: 0 2%;           
-    background-color: #ABCFE7;
+    /* background-color: #ABCFE7; */
 }
 
 footer {
@@ -48,6 +44,11 @@ footer {
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
+}
+
+#main-container {
+    width: calc(75%);
+    margin: 30px auto;
 }
 
 .clearfix::after {
@@ -85,8 +86,15 @@ footer {
     color: white;
 }
 
+.big-txt {
+    font-size: 30px;
+}
+
+.bolder-txt {
+    font-weight: bolder;
+}
+
 div.container-transparent{
-    bottom: 10px;
     height: 100%;
     background-color:rgba(0,0,0,0.2); 
 }
@@ -100,7 +108,7 @@ body {
 
 /* logo */
 #container-logo {
-    width: 185px;
+    width: calc(20%);
     border-right: 1px solid #A4A4A4;
 }
 
@@ -126,13 +134,39 @@ body {
 
 /* banner */
 .banner {
-    height: 500px;
+    height: 60%;
     border-radius: 10px;
     background-image: url(../img/banner.jpg);
-    background-size: cover;
+    background-size:cover;
     background-position: center;
 }
 
-p.description-image{
-    font-size: 50px;
+#txt-container{
+    width: 80%;
+    height: 30%;
+    padding: 300px 0 40px 70px;
+}
+
+.bg-img1 {
+    height: 40%;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.bg-img2 {
+    height: 40%;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.bg-img3 {
+    height: 40%;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
