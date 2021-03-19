@@ -16,26 +16,10 @@
     background-color: #ABCFE7;
 } */
 
-aside.left,
-aside.right {
-    float: left;
-    width: 23%;
-    height: 538px;
-    /* background-color: #ABCFE7; */
-}
-
-article {
-    float: left;
-    width: 50%;
-    height: 538px;
-    margin: 0 2%;           
-    /* background-color: #ABCFE7; */
-}
-
-footer {
+/* footer {
     height: 62px;
-    background-color: #8803FE;
-}
+    background-color: #8803FE; */
+
 /* /debug */
 
 
@@ -147,6 +131,23 @@ body {
     padding: 300px 0 40px 70px;
 }
 
+/* main */
+aside.left,
+aside.right {
+    float: left;
+    width: 23%;
+    height: 538px;
+    /* background-color: #ABCFE7; */
+}
+
+article {
+    float: left;
+    width: 50%;
+    height: 538px;
+    margin: 0 2%;           
+    /* background-color: #ABCFE7; */
+}
+
 .bg-img1 {
     height: 40%;
     background-image: url(../img/img-1.jpg);
@@ -169,4 +170,11 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+footer {
+    text-align: center;
+}
+
+footer span {
+    color: red;
 }
