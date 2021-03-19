@@ -22,7 +22,6 @@
 
 /* /debug */
 
-
 /* common */
 * {
     box-sizing: border-box;
@@ -78,9 +77,10 @@
     font-weight: bolder;
 }
 
-div.container-transparent{
+div.transparent-container{
     height: 100%;
-    background-color:rgba(0,0,0,0.2); 
+    background-color:rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 /* /common */
 
@@ -91,12 +91,12 @@ body {
 /* header */
 
 /* logo */
-#container-logo {
+#logo-container {
     width: calc(20%);
     border-right: 1px solid #A4A4A4;
 }
 
-#logo{
+#logo {
     float: left;
     height: 70px;
     width: 70px;
@@ -105,7 +105,7 @@ body {
     background-size: cover;
 }
 
-#text-logo{
+#logo-txt {
     line-height: 70px;
     font-size: 27px;
     font-weight:bold;
@@ -114,6 +114,10 @@ body {
 /* nav */
 .list-inline > li {
     padding: 10px 10px 10px 0;
+}
+
+:hover > a {
+    color: black;
 }
 
 /* banner */
@@ -169,9 +173,9 @@ article {
     background-image: url(../img/img-3.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
 }
 footer {
+
     text-align: center;
 }
 
